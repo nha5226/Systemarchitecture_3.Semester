@@ -1,0 +1,29 @@
+
+E
+java:S1066Q"/Merge this if statement with the enclosing one.(¸¢í
+D
+java:S1066X"/Merge this if statement with the enclosing one.(­ìï
+P
+java:S1141F"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+P
+java:S1141]"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+m
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 83 to the 15 allowed.(¤ÿ½»ùÿÿÿÿ
+y
+java:S1157?"cReplace these toUpperCase()/toLowerCase() and equals() calls with a single equalsIgnoreCase() call.(›“¤•
+N	java:S106A"9Replace this use of System.out or System.err by a logger.(ŸÂ¾İ
+~
+java:S1157E"cReplace these toUpperCase()/toLowerCase() and equals() calls with a single equalsIgnoreCase() call.(õşûèüÿÿÿÿ
+M	java:S106J"9Replace this use of System.out or System.err by a logger.(úÙ­
+~
+java:S1157M"cReplace these toUpperCase()/toLowerCase() and equals() calls with a single equalsIgnoreCase() call.(ÒÑó¶üÿÿÿÿ
+y
+java:S1157Q"cReplace these toUpperCase()/toLowerCase() and equals() calls with a single equalsIgnoreCase() call.(¸¢í
+x
+java:S1157X"cReplace these toUpperCase()/toLowerCase() and equals() calls with a single equalsIgnoreCase() call.(­ìï
+M
+java:S1135Y"2Complete the task associated to this TODO comment.(Ø¢Ãøÿÿÿÿ
+N	java:S106d"9Replace this use of System.out or System.err by a logger.(²™«
+S	java:S106l"9Replace this use of System.out or System.err by a logger.(’Áúıøÿÿÿÿ
+M
+java:S1135w"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ

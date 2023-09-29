@@ -1,0 +1,18 @@
+
+J
+java:S1066%"/Merge this if statement with the enclosing one.(ËãâÃÿÿÿÿÿ
+P
+java:S11413"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(±ºÆ€úÿÿÿÿ
+h
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 30 to the 15 allowed.(Ä“Ñ´
+~
+java:S1157%"cReplace these toUpperCase()/toLowerCase() and equals() calls with a single equalsIgnoreCase() call.(ËãâÃÿÿÿÿÿ
+S	java:S106&"9Replace this use of System.out or System.err by a logger.(¦è‘‰üÿÿÿÿ
+y
+java:S11571"cReplace these toUpperCase()/toLowerCase() and equals() calls with a single equalsIgnoreCase() call.(­€ßÇ
+S	java:S106:"9Replace this use of System.out or System.err by a logger.(Ü¯şÑşÿÿÿÿ
+S	java:S106>"9Replace this use of System.out or System.err by a logger.(’Áúıøÿÿÿÿ
+~
+java:S1157L"cReplace these toUpperCase()/toLowerCase() and equals() calls with a single equalsIgnoreCase() call.(ù¶˜ùÿÿÿÿ
+N	java:S106T"9Replace this use of System.out or System.err by a logger.(’ÆæÈ

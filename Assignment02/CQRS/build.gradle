@@ -1,0 +1,78 @@
+plugins {
+    id 'org.springframework.boot' version '2.5.6'
+    id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+    id 'java'
+    id 'java-library'
+    id 'application'
+
+
+}
+
+
+group = 'at.fhv.lab1reference'
+version = '0.0.1'
+sourceCompatibility = '11'
+
+
+
+
+
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-webflux'
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+}
+
+test {
+    useJUnitPlatform()
+}
+
+
+task eventSide(type:Jar) {
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+    archiveFileName = 'EventSide' + version + '.jar'
+    manifest() {
+        attributes ('Main-Class': "at/fhv/lab1reference/EventSide")
+    }
+    from{
+        configurations.compileClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+        include "eventside/**"
+        include "readside/**"
+        include "writeside/**"
+        include "at.fhv.lab1reference/**"
+        //DuplicatesStrategy.FAIL
+    }
+}
+
+
+task readSide(type:Jar) {
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+    archiveFileName = 'ReadSide' + version + '.jar'
+    manifest() {
+        attributes ('Main-Class': "at/fhv/lab1reference/ReadSide")
+    }
+    from{
+        configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+        //DuplicatesStrategy.FAIL
+    }
+}
+
+
+task WriteSide(type:Jar) {
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+    archiveFileName = 'WriteSide' + version + '.jar'
+
+    manifest() {
+        attributes ('Main-Class': "at/fhv/lab1reference/WriteSide")
+    }
+    from{
+        configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+        //DuplicatesStrategy.FAIL
+    }
+
+}

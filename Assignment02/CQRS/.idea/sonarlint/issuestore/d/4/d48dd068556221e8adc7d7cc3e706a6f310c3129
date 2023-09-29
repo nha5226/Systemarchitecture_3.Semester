@@ -1,0 +1,13 @@
+
+N	java:S106 "9Replace this use of System.out or System.err by a logger.(÷•äÒ
+N	java:S106%"9Replace this use of System.out or System.err by a logger.(ÀÍóÿ
+S	java:S1062"9Replace this use of System.out or System.err by a logger.(Ò·Íæûÿÿÿÿ
+N	java:S1067"9Replace this use of System.out or System.err by a logger.(¼Ïş
+S	java:S106C"9Replace this use of System.out or System.err by a logger.(º…ûµùÿÿÿÿ
+S	java:S106H"9Replace this use of System.out or System.err by a logger.(Ñ˜ÃÛüÿÿÿÿ
+Q
+java:S2696P"6Make the enclosing method "static" or remove this set.(ıòÎåúÿÿÿÿ
+S	java:S106]"9Replace this use of System.out or System.err by a logger.(¡ Ë¸ÿÿÿÿÿ
+N	java:S106b"9Replace this use of System.out or System.err by a logger.(­òùÖ
+L
+java:S2696c"6Make the enclosing method "static" or remove this set.(Ñ«Ê
