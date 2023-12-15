@@ -1,0 +1,13 @@
+task eventSide(type:Jar) {
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+    archiveFileName = 'EventSide' + version + '.jar'
+    manifest() {
+        attributes ('Main-Class': "at/fhv/lab1reference/EventSide")
+    }
+    from{
+        configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+        //DuplicatesStrategy.FAIL
+    }
+    from(sourceSets.main.output) {include "eventside/**/*.class"}
+    from(sourceSets.main.output) {include "at/**/EventSide.class"}
+}
